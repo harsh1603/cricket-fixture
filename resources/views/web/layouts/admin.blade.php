@@ -19,7 +19,7 @@
 </head>
 
 <body class="">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand" href="{{route('homepage')}}">Cricket Fixture</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
             
         </div>
         <ul class="nav navbar-nav navbar-right" style="clear: both;">
-        <li><a href="{{route('adminlogin')}}"><span class="glyphicon glyphicon-log-in"></span>Admin Login</a></li>
+        <li><a href="{{route('adminlogin')}}" style="color: black;"><span class="glyphicon glyphicon-log-in"></span>Admin Login</a></li>
     </ul>
 
     </nav>
