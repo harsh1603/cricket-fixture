@@ -6,9 +6,9 @@ Route::get('/player/{id}', 'WebController@teamPlayer')->name('player');
 Route::get('/match', 'WebController@teammatch')->name('match');
 Route::get('/points', 'WebController@points')->name('points');
 
-Route::redirect('/adminlogin', '/cricketfixture/login')->name('adminlogin');
+Route::redirect('/adminlogin', '/cricket-fixture/login')->name('adminlogin');
 
-Route::redirect('/home', '/cricketfixture/admin');
+Route::redirect('/home', '/cricket-fixture/admin');
 
 Auth::routes(['register' => false]);
 
